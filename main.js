@@ -15,3 +15,18 @@ let height = 200;
     //console.log(info);
 }
 console.log(otherVariable);
+
+var globalGreeting = "Good ";
+
+function greetingFunction() {
+    var localGreeting = " Evening";
+    console.log("function:");
+    console.log(globalGreeting);
+    console.log(localGreeting);
+}
+
+greetingFunction();
+
+console.log("main program:");
+console.log(globalGreeting);
+console.log(localGreeting);
