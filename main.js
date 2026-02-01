@@ -1,11 +1,9 @@
-let year = 2026;
-console.log(typeof year);
-console.log(typeof 2025);
+let isDataValid = true;
+let isStringTooLong = false;
+let isGameOver = false;
+continueLoop = true;
 
-let name = "Bob";
-console.log(typeof name);
-console.log(typeof "John");
-
-let typeOfYear = typeof year;
-console.log(typeOfYear);
-console.log(typeof typeOfYear);
+console.log(false);
+console.log(typeof false);
+console.log(isDataValid);
+console.log(typeof isDataValid);
