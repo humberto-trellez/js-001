@@ -1,37 +1,29 @@
-const year = 1991;
-let delayInSeconds = 0.00016;
-let area = (16 * 3.14);
-let halfArea = area / 2;
+let country = "Malawi";
+let continent = 'Africa';
 
-console.log(year);
-console.log(typeof year);
+console.log(country);
+console.log(typeof country);
+console.log(continent);
+console.log(typeof continent);
 
-let a = 10;
-let b = 0x10;
-let c = 0o10;
-let d = 0b10;
+let sentence = `${country} is located in ${continent}`;
+console.log(sentence);
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+let message1 = "The vessel 'Mars' called at the port.";
+let message2 = 'Cyclone "Cilida" to pass close to Mauritius.'
+console.log(message1);
+console.log(message2);
 
+let str = "java script language";
 
-let x = 9e3;
-let y = 123e-5;
+console.log(str.length);
+console.log('test'.length);
 
-console.log(x);
-console.log(y);
+console.log(str.charAt(0));
+console.log('abc'.charAt(1));
 
-let e = 1 / 0;
-let f = -Infinity;
+console.log(str.slice(0, 4));
+console.log('test'.slice(1, 3));
 
-console.log(e);
-console.log(f);
-console.log(typeof e);
-console.log(typeof f);
-
-let s = "It's definitely not a number";
-let n = s * 10;
-console.log(n);
-console.log(typeof n);
+console.log(str.split(' '));
+console.log('192.168.1.1'.split('.'));
