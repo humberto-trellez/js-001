@@ -1,11 +1,12 @@
-let declaredVar;
-console.log(typeof declaredVar);
+const str = String();
+const num = Number();
+const bool = Boolean();
 
-declaredVar = 5;
-console.log(declaredVar);
+console.log(str);
+console.log(num);
+console.log(bool);
 
-declaredVar = undefined;
-console.log(typeof declaredVar);
+const big1 = BigInt(42);
+console.log(big1);
 
-console.log(typeof notDeclaredVar);
-console.log(notDeclaredVar);
+const big2 = BigInt();
